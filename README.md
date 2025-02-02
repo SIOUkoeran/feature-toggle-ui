@@ -1,24 +1,22 @@
-# feature-toggle-ui
+# Feature Toggle Management UI
 
-## Project setup
-```
+Vue.js based feature toggle management interface that allows users to enable/disable features through a modern toggle switch interface.
+
+## Features
+- Display list of feature toggles
+- Toggle features on/off with visual switch interface
+- Real-time updates with backend synchronization
+- Responsive design
+
+## Tech Stack
+- Vue.js 3
+- Axios for API calls
+- Tailwind CSS for styling
+
+## Setup
+```bash
+# Install dependencies
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+# Start development server
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
